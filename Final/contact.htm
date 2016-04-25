@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- 
+		Capstone Project
+		Author: Patrick Ruddy
+		Date: 7/29/15
+	-->
+    <script src = "modernizr-2.js"></script>
+	<script src="formsubmit.js"></script>
+    <title>N7: Contact Us</title>
+	
+	  <link rel = "stylesheet" href = "finalstyle.css" type = "text/css" />
+</head>
+
+<body>
+
+	<div id = "container">
+	
+	<header>
+
+  <img src="images/grunt.jpg" alt="Enlist Today" align="middle" class = "banner" />
+
+	</header>
+	
+	<div id = "wrapper">
+	
+	<nav>
+  <ul>
+    <li><a href = "index.htm">Home</a></li>
+    <li><a href = "about.htm">About the N7</a></li>
+    <li><a href = "soldiers.htm">Soldier Bios</a></li>
+    <li><a href = "contact.htm">Contact Us</a></li>
+  </ul>
+  </nav>
+
+  <aside>
+  <h3>Training Rotation</h3>
+
+  <p>Monday: Firearms</p>
+  <p>Tuesday: Field Navigation</p>
+  <p>Wednesday:  Squad Living</p>
+  <p>Thursday: No Training</p>
+  <p>Friday: Galactic Dialect</p>
+  <p>Saturday: Biotic Familiarity</p>
+  <p>Sunday: Engineering</p>
+  
+  <figure>
+	<img src = "images/logo.jpg" alt = "N7" class = "thumb"/>
+		<figcaption>
+			N7<br />
+			Stand Proud!
+		</figcaption>
+	</figure>
+  </aside>
+
+<section id = "main">
+
+	<h2>Contact Us</h2>
+	<p>If you would like to reach us, you can visit us in person at 1101 Citadel Way, Citadel. If you are unable to make it in person we can also be reached by email (N7Defenders@SaveTheWorld.Com) or by phone (555) 107-2012.</P>
+
+  <h3>Request Information</h3>
+  <p>For more information about the N7 Program or for registration information, please fill out the form below.</p>
+  
+  <div id = "formcontainer">
+
+
+	<form id = "survey" name = "survey" method = "post" action = "javascript:submitform();">
+		<fieldset class = "labelfloatleft"><legend>Contact Information</legend>
+			<label for = "firstname">First Name</label>
+			<input type = "text" name = "firstname" id = "firstname" class = "text" placeholder = "Commander"/>
+			
+			<label for = "lastname">Last Name</label>
+			<input type = "text" name = "lastname" id = "lastname" class = "text" placeholder = "Shepard"/>
+			
+			<label for = "species">Species</label>
+			<input type = "text" name = "species" id ="species" class = "text" placeholder = "Human"/>
+			
+			<label for = "emailaddress">Email</label>
+			<input type = "email" name = "emailaddress" id = "emailaddress" size = "30" class = "text" placeholder = "name@anywhere.com" />
+		</fieldset>
+		
+		<fieldset><legend>Personal Information</legend>
+			<input type = "radio" name = "gender" id = "male" value = "male" />
+			<label for = "male">Male</label>
+			
+			<input type = "radio" name = "gender" id = "female" value = "female" />
+			<label for = "female">Female</label>
+			
+				<fieldset class = "group">
+					<label for = "yearbirth">Year of Birth</label>
+					<input type = "text" name = "yearbirth" id = "yearbirth" class = "text" size = "4" maxlength = "4" placeholder = "20XX"/>
+				</fieldset>
+			
+		</fieldset>
+		
+		<fieldset><legend>I would be interested in: (check all that apply)</legend>
+		
+			<fieldset class = "group">
+				<input type = "checkbox" name = "interested" id = "mailinglist" value = "mailinglist" />
+				<label for = "mailinglist">Please add me to the mailing list</label>
+			</fieldset>
+			
+			<fieldset class = "group">
+				<input type = "checkbox" name = "interested" id = "Citadel" value = "Citadel" />
+				<label for = "Citadel">I want an appointment at the Citadel</label>
+			</fieldset>
+			
+			<fieldset class = "group">
+				<input type = "checkbox" name = "interested" id = "Registration" value = "Registration" checked = "checked" />
+				<label for = "Registration">I would like to register for service!</label>
+			</fieldset>
+			
+			<fieldset class = "group">
+				<input type = "checkbox" name = "interested" id = "information" value = "information" />
+				<label for = "information">Send me more information about the training</label>
+			</fieldset>
+			
+			
+		</fieldset>
+		
+		<fieldset><legend> Send a message</legend>
+			<label for = "subject"> Subject</label>
+			<select name = "subject" id = "subject">
+				<option value = "citadel">Visiting the Citadel</option>
+				<option value = "requirements">Program Requirements</option>
+				<option value = "register" selected = "selected">Registration Information</option>
+				<option value = "other">Other</option>
+			</select>
+			
+			<label for = "message"> Message</label>
+			<textarea name = "message" id = "message" rows = "10" cols = "45"></textarea>
+			
+			
+			
+		</fieldset>
+		
+		<input type = "submit" value = "Send Information" class = "button" />
+		<input type = "reset" value = "Reset" class = "button" />
+		
+		
+	
+	</form>
+
+  
+
+</div>
+
+
+</section> 
+
+<footer>
+<p>N7: Defenders of the Universe<br />
+1101 Citadel Way, Citadel, Milky Way System<br />
+<a href = "index.htm">Home</a> | 
+<a href = "about.htm">About the N7</a> | 
+<a href = "soldiers.htm">Soldier Bios</a> | 
+<a href = "contact.htm">Contact Us</a></p>
+</div> <!-- end container -->
+</footer>
+</div> <!-- end wrapper -->
+
+</body>
+</html>

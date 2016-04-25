@@ -1,0 +1,224 @@
+/* Style Sheet For Final */
+
+/* Patrick Ruddy */
+/* 7/22/15 */
+
+@import url(navfooter.css);
+	
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		
+		body {
+			font-size: 1.1em;
+			font-family: Arial, Helvetica, sans-serif;
+			color: #7F0000;
+			background-image: url(images/background.jpg);
+			background-repeat: no-repeat;
+			background-size: intial;
+		}
+		
+		#container {
+			width: 930px;
+			border-width: 1px;
+			margin: 0 auto;
+			border-radius: 25px;
+		}
+		
+		aside {
+			width: 200px;
+			margin: 0 5px 5px 0;
+			padding: 10px;
+			float: right;
+		}
+		
+		aside p {
+			font-style: italic;
+			font-size: 0.9em;
+		}
+
+		header {
+			width: 910px; /* reduced by 20px to accommodate shadow */
+			margin-bottom: 30px;
+			margin-top: 10px;
+			text-align: center;
+			border: 1px solid #7F0000;
+			box-shadow: 15px 15px 0 0 #7F0000;
+			border-radius: 25px;
+			
+		}
+		
+		img.banner {
+			height: 150px;
+			width: 910px;
+			border-radius: 25px;
+		}
+		
+		img.thumb {
+			height: 150px;
+			width: 200px;
+		}
+		
+		nav {
+			width: 200px;
+			margin: 0 5px 0 5px;
+			padding: 25px 10px 0 10px;
+			float: left;
+			text-align: center;
+		}
+		
+		nav ul {
+			font-weight: bold;
+			list-style: none;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+		
+		nav ul li a {
+			padding: 5px;
+			color: black;
+			text-decoration: none;
+			display: block;
+		}
+		
+		nav ul li a:hover {
+			background: #7F0000;
+			border-radius: 10px;
+			color: white;
+		}
+		
+		#main {
+			width: 446px;
+			height: 550px;
+			padding: 10px;
+			float: left;
+			color: black;
+			border-left: 2px solid #7F0000;
+			border-right: 2px solid #7F0000;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+		#main p {
+			text-indent: 1.5em;
+		}
+		
+		figure {
+			padding-top: 10px;
+			text-align: center;
+		}
+		
+		figcaption {
+			font-style: italic;
+		}
+		
+		h2 { 
+			font-size: 1.4em;
+			text-align: center;
+			padding-bottom: 0.5em;
+			color: black;
+		}
+		
+		h3 {
+			text-align: center;
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+			color: black;
+		}
+		
+		footer {
+			width: 910px;
+			margin: 0;
+			padding: 10px;
+			background-color: #7F0000;
+			clear: both;
+			color: #d3d3d3;
+			font-weight: bold;
+			text-align: center;
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+		}
+		
+		#wrapper {
+			width: 930px;
+			margin-bottom: 10px;
+			border: 2px solid;
+			border-radius: 27px;
+		}
+		
+		/*-- Form Style --*/
+		
+		form {
+		margin-top: 1em;
+		border: solid 2px #d3d3d3;
+		padding: 1em;
+		font-size: 16px;
+	}
+	
+		aside.mission {
+			width: 400px;
+			margin: 0 5px 5px 0;
+			padding: 10px;
+			float: center;
+		}
+	
+	#formcontainer {
+		width: 100%;
+		float: left;
+	}
+	
+	.labelfloatleft label {
+		width: 100px;
+		margin-right: 15px;
+		color: #d3d3d3;
+		float: left;
+		text-align: right;
+	}
+	
+	.labelfloatleft input {
+		display: block;
+	}
+	
+	fieldset {
+		margin-bottom: 1em;
+		border: solid 2px #d3d3d3;
+		background-color: black;
+		display: block;
+	}
+	
+	legend {
+		color: #d3d3d3; 
+		padding: 0 10px; 
+	}
+	
+	label {
+		color: #d3d3d3;
+	}
+	
+	input.text {
+		background-color: white;
+	}
+	
+	fieldset.group {
+		float: none;
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	
+	textarea {
+		border: solid 2px #d3d3d3;
+		display: block;
+	}
+	
+	select {
+		display: block;
+	}
+	
+	input.button {
+		color: gray;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 4px;
+		background-color: #d3d3d3;
+		border: 1px solid #d3d3d3;
+		display: inline;
+	}
